@@ -11,14 +11,14 @@ export default function Home() {
         </Grid>
 
         <Grid xs={20} sm={4}>
-          <Link href='/signup' width='100%'>
+          <Link href='/person/61a24ab582c0306b03b5d4c7' width='100%'>
             <Button shadow width='100%'>
               Signup
             </Button>
           </Link>
         </Grid>
         <Grid xs={20} sm={4}>
-          <Link href='/signup' width='100%'>
+          <Link href='/person/61a24ab582c0306b03b5d4c7' width='100%'>
             <Button disabled={!bindings.value} shadow type='secondary-light' width='100%'>
               Login
             </Button>
